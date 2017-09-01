@@ -1,0 +1,44 @@
+.star {
+  height: 2rem;
+  width: auto;
+  margin-bottom: 20px !important;
+  display: inline !important;
+}
+
+.icon {
+  height: 3.5rem;
+  width: auto;
+  margin-top: 10px !important;
+}
+.roboto {
+  font-family: 'Roboto', sans-serif;
+  color: white !important;
+  font-size: 48px !important;
+}
+h1 {
+  font-family:'Roboto', sans-serif;
+  font-size: 32px !important;
+  margin-bottom: 28px !important;
+
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px !important;
+}
+
+.padding {
+  margin-left: 88% !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.restaurant {
+  display: flex;
+  flex-direction: row !important;
+  padding-top: 5px!important;
+}
+
+.destination {
+  margin-left: 20px;
+}

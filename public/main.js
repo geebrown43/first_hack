@@ -42,12 +42,13 @@ form.addEventListener('submit', function(event) {
           }
           // var currency = 'AUD'
 
-          fetch(`http://api.fixer.io/latest?symbols=${currency}`)
+          fetch(`http://api.fixer.io/latest?base=USD`)
             .then((response) => {
               return response.json()
               .then((currencyData) => {
-                var date =currencyData.rates
-                for(var i in date){
+                var date =currencyData.rates.CAD
+                console.log()
+                //for(var i in date){
                 var pTag = document.createElement('p')
                 pTag.textContent = date[i];
                 country.append(pTag)
